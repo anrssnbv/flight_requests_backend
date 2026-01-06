@@ -13,7 +13,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-producti
 
 // Middleware
 app.use(cors({
-  origin: ['https://flight-frontend.vercel.app', 'http://localhost:5173'],
+  origin: ['https://flight-requests-frontend.vercel.app', 'http://localhost:5173'],
   credentials: true
 }));
 app.use(express.json());
